@@ -1,4 +1,5 @@
 [
+    {"album_name": "Arteon", "album_cover": "./img/cat_arteon.jpg", "artist_name": "Arteon", "price": 100, "stock": true},
     {"album_name": "T-Roc", "album_cover": "./img/cat_troc.jpg", "artist_name": "T-Roc", "price": 100, "stock": false},
     {"album_name": "Golf", "album_cover": "./img/cat_golf.jpg", "artist_name": "Golf", "price": 100, "stock": true},
     {"album_name": "Taigo", "album_cover": "./img/cat_taigo.jpg", "artist_name": "Taigo", "price": 100, "stock": true},
