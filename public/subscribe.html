@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/cerulean/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/c481b1d4d8.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Volkswagen</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-info" id="nav">
+      <!-- generado con JS -->
+    </nav>
+    <main class="container-fluid pb-5" id="home">
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="header-title">Sumate a nuestro Newsletter</h1>
+        </div>
+      </section>
+      <section class="container">
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            <form action="https://formspree.io/f/mayvarkl" method="POST" class="w-75">
+              <!-- datos -->
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input type="text" class="form-control" name="name" id="name" placeholder="Nombre" required>
+                  <label for="name">Nombre y Apellido</label>
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="email" class="form-control" name="email" id="mail" placeholder="E-mail" required>
+                  <label for="mail">E-Mail</label>
+                </div>
+              </div>
+              <!-- como conociste -->
+              <div class="form-row mt-2">
+                <div class="col-12">
+                  <p>¿Cómo conociste nuestra web?</p>
+                </div>
+                <div class="col-12">
+                  <div class="form-row">
+                    <div class=" form-group col-md-4">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="options" id="facebook" value="facebook" checked>
+                        <label class="form-check-label" for="facebook">
+                          Facebook
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="options" id="instagram" value="instagram">
+                        <label class="form-check-label" for="instagram">
+                          Instagram
+                        </label>
+                      </div>
+                    </div> 
+                    <div class=" form-group col-md-4">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="options" id="web" value="web">
+                          <label class="form-check-label" for="web">
+                            Sitio web
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="options" id="publicidad" value="publicidad">
+                          <label class="form-check-label" for="publicidad">
+                            Publicidad
+                          </label>
+                        </div>
+                    </div>
+                    <div class=" form-group col-md-4">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="options" id="radio" value="radio">
+                          <label class="form-check-label" for="radio">
+                            Radio
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="options" id="otro" value="otro">
+                          <label class="form-check-label" for="otro">
+                            Otro
+                          </label>
+                        </div>
+                    </div>
+                  </div>
+                </div>                      
+              </div>
+              <!-- submit -->
+              <div class="form-row mt-4">
+                <div class="form-group col-12 text-center">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="acepta" id="aceptoCondiciones" required>
+                    <label class="form-check-label" for="aceptoCondiciones">
+                      Acepto recibir el Newsletter por mail con novedades sobre el catálogo y ofertas.
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12 text-center">
+                  <button type="submit" class="btn btn-dark">Suscribirme</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="container-fluid py-4" id="footer">
+      <!-- generado con JS -->
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

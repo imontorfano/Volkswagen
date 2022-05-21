@@ -1,0 +1,6 @@
+[
+    {"car_name": "T-Roc", "car_photo": "./img/cat_troc.jpg", "motor_type": "1.8 4L", "price": 500000, "stock": false},
+    {"car_name": "Golf", "car_photo": "./img/cat_golf.jpg", "motor_type": "2.0T 4L", "price": 700000, "stock": true},
+    {"car_name": "Taigo", "car_photo": "./img/cat_taigo.jpg", "motor_type": "1.6 Diesel", "price": 500000, "stock": true},
+    {"car_name": "Fox", "car_photo": "./img/cat_fox.jpg", "motor_type": "1.0 Diesel", "price": 150000, "stock": false}
+]

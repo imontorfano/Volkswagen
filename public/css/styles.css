@@ -1,0 +1,136 @@
+/* GENERAL */
+
+:root {
+    --color-violet: rgb(152, 97, 204);
+    --color-violet-light: rgb(161, 116, 204); 
+    --color-gray:  #e8e8e8;
+    --color-dark-blue: #033c73;
+    --color-black: #07233f;
+}
+
+
+.links {
+    color: var(--color-dark-blue);
+}
+.links:hover {
+    color: var(--color-violet) !important;
+    text-decoration: underline !important;
+}
+
+
+/* NAV */
+
+.fa-car {
+    color: var(--color-gray);
+}
+
+/* ANIMACION LOGO*/
+
+.fa-car:hover {
+    animation-name: spin;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+.animation-logo {
+    animation-name: spin;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+/* MAIN */
+
+.header-title {
+    font-weight: 300;
+    font-size: 3.5rem;
+    line-height: 1.2;
+}
+
+@media (max-width: 400px) {
+    .header-title {
+        font-weight: 300;
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+}
+
+@media (max-width: 300px) {
+    .header-title {
+        font-weight: 300;
+        font-size: 2.0rem;
+        line-height: 1.2;
+    }
+}
+
+
+#cta:hover {
+    background-color: var(--color-violet);
+    border-color: var(--color-violet);
+}
+
+/* SUCURSALES */
+
+
+.carousel-text-box {
+    padding: 10px;
+    background-color: rgba(29, 85, 141, 0.8);
+    color: var(--color-gray);
+
+}
+
+@media (max-width: 350px) {
+    .carousel-text-box p{
+        font-size: 0.8rem;
+    }
+    .carousel-text-box a{
+        font-size: 1rem;
+    }
+}
+.carousel-text-box a {
+    background-color: var(--color-violet);
+    color: var(--color-gray);
+}
+
+.carousel-text-box a:hover {
+    background-color: var(--color-violet-light);
+    color: var(--color-gray);
+}
+
+.carousel-img {
+    width: 100%;
+    height: auto;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: var(--color-dark-blue);
+}
+
+.fab {
+    padding: 0px 0px 0px 0px;
+    color: #e8e8e8;
+}
+
+.fab:hover {
+    color: var(--color-violet);  
+}
+
+#copyright {
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 0.7rem;
+    color: #e8e8e8;
+}
+
