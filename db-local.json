@@ -1,14 +1,10 @@
 [
-    {"album_name": "Demon Days", "album_cover": "./img/gorillaz_demondays.jpg", "artist_name": "Gorillaz", "price": 100, "stock": true},
-    {"album_name": "Plastic Beach", "album_cover": "./img/plasticbeach.jpg", "artist_name": "Gorillaz", "price": 100, "stock": false},
-    {"album_name": "Mezzanine", "album_cover": "./img/massiveattack_mezzanine.jpg", "artist_name": "Massive Attack", "price": 100, "stock": true},
-    {"album_name": "Heligoland", "album_cover": "./img/heligoland.jpg", "artist_name": "Massive Attack", "price": 100, "stock": true},
-    {"album_name": "Songs for the Deaf", "album_cover": "./img/qotsa.jpg", "artist_name": "QOTSA", "price": 150, "stock": true},
-    {"album_name": "Like Clockwork", "album_cover": "./img/likeclockwork.jpg", "artist_name": "QOTSA", "price": 150, "stock": false},
-    {"album_name": "Sounds of the Universe", "album_cover": "./img/soundsoftheuniverse.jpg", "artist_name": "Depeche Mode", "price": 300, "stock": true},
-    {"album_name": "OK Computer", "album_cover": "./img/okcomputer.jpg", "artist_name": "Radiohead", "price": 200, "stock": false},
-    {"album_name": "Kid A", "album_cover": "./img/kida.jpg", "artist_name": "Radiohead", "price": 150, "stock": true},
-    {"album_name": "Midnight Boom", "album_cover": "./img/midnightboom.jpg", "artist_name": "The Kills", "price": 150, "stock": true},
-    {"album_name": "Dummy", "album_cover": "./img/dummy.jpg", "artist_name": "Portishead", "price": 300, "stock": true},
-    {"album_name": "Strange Mercy", "album_cover": "./img/strangemercy.jpg", "artist_name": "St. Vincent", "price": 200, "stock": true}
+    {"album_name": "Arteon", "album_cover": "./img/cat_arteon.jpg", "artist_name": "Arteon", "price": 100, "stock": true},
+    {"album_name": "T-Roc", "album_cover": "./img/cat_troc.jpg", "artist_name": "T-Roc", "price": 100, "stock": false},
+    {"album_name": "Golf", "album_cover": "./img/cat_golf.jpg", "artist_name": "Golf", "price": 100, "stock": true},
+    {"album_name": "Taigo", "album_cover": "./img/cat_taigo.jpg", "artist_name": "Taigo", "price": 100, "stock": true},
+    {"album_name": "Jetta", "album_cover": "./img/cat_jetta.jpg", "artist_name": "Jetta", "price": 150, "stock": true},
+    {"album_name": "Logus", "album_cover": "./img/cat_logus.jpg", "artist_name": "Logus", "price": 150, "stock": false},
+    {"album_name": "Passat", "album_cover": "./img/cat_passat.jpg", "artist_name": "Passat", "price": 300, "stock": true},
+    {"album_name": "Fox", "album_cover": "./img/cat_fox.jpg", "artist_name": "Fox", "price": 200, "stock": false}
 ]
