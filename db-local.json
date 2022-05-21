@@ -1,10 +1,7 @@
 [
-    {"album_name": "Arteon", "album_cover": "./img/cat_arteon.jpg", "artist_name": "Arteon", "price": 100, "stock": true},
+
     {"album_name": "T-Roc", "album_cover": "./img/cat_troc.jpg", "artist_name": "T-Roc", "price": 100, "stock": false},
     {"album_name": "Golf", "album_cover": "./img/cat_golf.jpg", "artist_name": "Golf", "price": 100, "stock": true},
     {"album_name": "Taigo", "album_cover": "./img/cat_taigo.jpg", "artist_name": "Taigo", "price": 100, "stock": true},
-    {"album_name": "Jetta", "album_cover": "./img/cat_jetta.jpg", "artist_name": "Jetta", "price": 150, "stock": true},
-    {"album_name": "Logus", "album_cover": "./img/cat_logus.jpg", "artist_name": "Logus", "price": 150, "stock": false},
-    {"album_name": "Passat", "album_cover": "./img/cat_passat.jpg", "artist_name": "Passat", "price": 300, "stock": true},
     {"album_name": "Fox", "album_cover": "./img/cat_fox.jpg", "artist_name": "Fox", "price": 200, "stock": false}
 ]
