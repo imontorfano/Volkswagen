@@ -1,7 +1,7 @@
 [
-    {"album_name": "Arteon", "album_cover": "./img/cat_arteon.jpg", "artist_name": "Arteon", "price": 100, "stock": true},
-    {"album_name": "T-Roc", "album_cover": "./img/cat_troc.jpg", "artist_name": "T-Roc", "price": 100, "stock": false},
-    {"album_name": "Golf", "album_cover": "./img/cat_golf.jpg", "artist_name": "Golf", "price": 100, "stock": true},
-    {"album_name": "Taigo", "album_cover": "./img/cat_taigo.jpg", "artist_name": "Taigo", "price": 100, "stock": true},
-    {"album_name": "Fox", "album_cover": "./img/cat_fox.jpg", "artist_name": "Fox", "price": 200, "stock": false}
+    {"album_name": "Arteon", "album_cover": "./img/cat_arteon.jpg", "artist_name": "Arteon", "price": 1000000, "stock": true},
+    {"album_name": "T-Roc", "album_cover": "./img/cat_troc.jpg", "artist_name": "T-Roc", "price": 500000, "stock": false},
+    {"album_name": "Golf", "album_cover": "./img/cat_golf.jpg", "artist_name": "Golf", "price": 700000, "stock": true},
+    {"album_name": "Taigo", "album_cover": "./img/cat_taigo.jpg", "artist_name": "Taigo", "price": 500000, "stock": true},
+    {"album_name": "Fox", "album_cover": "./img/cat_fox.jpg", "artist_name": "Fox", "price": 150000, "stock": false}
 ]
